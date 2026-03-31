@@ -1,5 +1,5 @@
 ---
-name: workflow-prompt-builder
+name: system_prompt_builder_workflow
 description: '引导用户通过适当的结构、工作流程和最佳实践，创建包含完整结构化工作流的系统规则 (Rules) 与网页版 Gemini 的 Gem 指令。'
 ---
 

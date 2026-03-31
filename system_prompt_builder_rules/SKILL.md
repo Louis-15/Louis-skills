@@ -1,5 +1,5 @@
 ---
-name: persona-prompt-builder
+name: system_prompt_builder_rules
 description: '引导用户创建仅包含通用背景设定、外挂知识库指南、全局规则与个性化沟通风格的系统提示词（工作区 Rules 或个人专属 Gem），不包含具体执行步骤的工作流。'
 ---
 
