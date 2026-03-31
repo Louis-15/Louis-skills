@@ -8,7 +8,20 @@
 *   [`system_prompt_builder_workflow/`](./system_prompt_builder_workflow) - 包含严格执行流程约束的技能构建器，适用于需要进行复杂结构化推演的 Antigravity 自动化任务配置。
 *   [`SKILL.md`](./SKILL.md) - 全局或通用说明。
 
-## 💡 如何使用这些 Skills
+## 💡 如何安装和使用这些 Skills
 
-如果您使用的是 **Antigravity** 环境，只需将其添加为工作区 Rule，或利用 `npx` (如有配套脚手架) 安装。
-如果您使用的是 **网页版 Gemini (Gems)**，可以直接复制各个子目录下的 Markdown 文件内容，填入您的专属助理的 "Instructions" 栏目中，即可获得拥有极强专业能力的定制 AI 伙伴。
+### 📥 针对 Antigravity 用户
+大语言模型的专属构建技能，允许在终端一键拉取。请复制对应区块的命令直接运行：
+
+**1. 安装纯背景设定的系统提示词构建器（适合辅助咨询助手配置）**
+```bash
+npx skills add https://github.com/Louis-15/Louis-skills --skill system_prompt_builder_rules
+```
+
+**2. 安装带严谨流水线的工作流系统提示词构建器（包含完整的深挖交互步骤闭环）**
+```bash
+npx skills add https://github.com/Louis-15/Louis-skills --skill system_prompt_builder_workflow
+```
+
+### 📝 针对网页版 Gemini (Gems) 用户
+由于不可调用终端，您可以直接进入上述对应名录中，复制文件内的所有的纯文本 Markdown 正文，直接粘贴至您的专属助理的 "Instructions" 栏目里使用。
