@@ -1,6 +1,6 @@
 # 🤖 Antigravity & Gemini Skills Collections
 
-这个仓库用于存放为 Antigravity Agent 和网页版 Gemini 开发的高质量自定义 **Skills（技能指令）** 与 **System Prompts（系统规则）**。
+这个仓库用于存放为 Antigravity Agent 和网页版 Gemini 开发的高质量自定义**System Prompts（系统规则）** 的 skill。
 
 ## 📁 目录结构
 
